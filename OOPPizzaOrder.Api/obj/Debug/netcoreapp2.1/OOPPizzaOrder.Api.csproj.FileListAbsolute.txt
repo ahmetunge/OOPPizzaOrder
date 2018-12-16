@@ -1,0 +1,14 @@
+D:\MyWorks\OOP-Examples\OOPPizzaOrder\OOPPizzaOrder.Api\bin\Debug\netcoreapp2.1\OOPPizzaOrder.Api.deps.json
+D:\MyWorks\OOP-Examples\OOPPizzaOrder\OOPPizzaOrder.Api\bin\Debug\netcoreapp2.1\OOPPizzaOrder.Api.runtimeconfig.json
+D:\MyWorks\OOP-Examples\OOPPizzaOrder\OOPPizzaOrder.Api\bin\Debug\netcoreapp2.1\OOPPizzaOrder.Api.runtimeconfig.dev.json
+D:\MyWorks\OOP-Examples\OOPPizzaOrder\OOPPizzaOrder.Api\bin\Debug\netcoreapp2.1\OOPPizzaOrder.Api.dll
+D:\MyWorks\OOP-Examples\OOPPizzaOrder\OOPPizzaOrder.Api\bin\Debug\netcoreapp2.1\OOPPizzaOrder.Api.pdb
+D:\MyWorks\OOP-Examples\OOPPizzaOrder\OOPPizzaOrder.Api\obj\Debug\netcoreapp2.1\OOPPizzaOrder.Api.csprojAssemblyReference.cache
+D:\MyWorks\OOP-Examples\OOPPizzaOrder\OOPPizzaOrder.Api\obj\Debug\netcoreapp2.1\OOPPizzaOrder.Api.csproj.CoreCompileInputs.cache
+D:\MyWorks\OOP-Examples\OOPPizzaOrder\OOPPizzaOrder.Api\obj\Debug\netcoreapp2.1\OOPPizzaOrder.Api.RazorAssemblyInfo.cache
+D:\MyWorks\OOP-Examples\OOPPizzaOrder\OOPPizzaOrder.Api\obj\Debug\netcoreapp2.1\OOPPizzaOrder.Api.RazorAssemblyInfo.cs
+D:\MyWorks\OOP-Examples\OOPPizzaOrder\OOPPizzaOrder.Api\obj\Debug\netcoreapp2.1\OOPPizzaOrder.Api.AssemblyInfoInputs.cache
+D:\MyWorks\OOP-Examples\OOPPizzaOrder\OOPPizzaOrder.Api\obj\Debug\netcoreapp2.1\OOPPizzaOrder.Api.AssemblyInfo.cs
+D:\MyWorks\OOP-Examples\OOPPizzaOrder\OOPPizzaOrder.Api\obj\Debug\netcoreapp2.1\OOPPizzaOrder.Api.RazorTargetAssemblyInfo.cache
+D:\MyWorks\OOP-Examples\OOPPizzaOrder\OOPPizzaOrder.Api\obj\Debug\netcoreapp2.1\OOPPizzaOrder.Api.dll
+D:\MyWorks\OOP-Examples\OOPPizzaOrder\OOPPizzaOrder.Api\obj\Debug\netcoreapp2.1\OOPPizzaOrder.Api.pdb
