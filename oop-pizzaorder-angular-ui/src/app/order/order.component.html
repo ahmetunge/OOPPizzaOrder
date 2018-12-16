@@ -1,0 +1,98 @@
+<div class=" container mt-5">
+  <div class="row">
+    <div class="col-sm-12">
+        <form [formGroup]="submitForm" (ngSubmit)="onSubmit()">
+            <div class="card " id="main-card">
+                <div class="card-body">
+                  <div class="row" style="margin-top:50px">
+                    <div class="col-md-6">
+        
+                      <div class="card input-card" style="min-height:300px">
+                        <div class="card-body" style="min-height:300px">
+                          <div class="row ">
+                            <div class="col-md-12">
+                              <mat-form-field>
+                                <mat-select placeholder="Size" [formControl]="sizeId" required>
+                                  <mat-option>--</mat-option>
+                                  <mat-option *ngFor="let size of sizesForOrder" [value]="size.id">
+                                    {{size.name}}
+                                  </mat-option>
+                                </mat-select>
+                                <mat-error *ngIf="sizeId.hasError('required')">Please choose a size</mat-error>
+                                <mat-hint>{{sizeId.value?.sound}}</mat-hint>
+                              </mat-form-field>
+                            </div>
+                          </div>
+        
+                          <div class="row input-row">
+                            <div class="col-md-12">
+
+                                <mat-form-field>
+                                    <mat-select placeholder="Pizzas" [formControl]="pizzaTypeId" required >
+                                      <mat-option>--</mat-option>
+                                      <mat-option *ngFor="let pType of pizzaTypesForOrder" [value]="pType.id">
+                                        {{pType.name}}
+                                      </mat-option>
+                                    </mat-select>
+                                    
+                                    <mat-error *ngIf="pizzaTypeId.hasError('required')">Please choose a pizza</mat-error>
+                                    <mat-hint>{{pizzaTypeId.value?.sound}}</mat-hint>
+                                  </mat-form-field>
+
+                            </div>
+                          </div>
+        
+                          <div class="row input-row">
+                            <div class="col-md-12">
+                              <mat-radio-group [formControl]="edgeTypeId">
+                                <mat-radio-button value="0"  >Thin Edge</mat-radio-button>
+                                <mat-radio-button style="float:right" value="1"  >Thick Edge</mat-radio-button>
+                              </mat-radio-group>
+                            </div>
+        
+                          </div>
+        
+                        </div>
+                      </div>
+                      <div class="input-row">
+                        <div class="card">
+                          <div class="card-body">
+                            <mat-form-field class="example-full-width" >
+                              <input [formControl]="numberOfPizza" matInput placeholder="Number" type="number" > 
+                              <mat-error *ngIf="numberOfPizza.hasError('required')">Please enter the number</mat-error>
+                            </mat-form-field>
+                          </div>
+                        </div>
+                      </div>
+        
+                    </div>
+                    <div class="col-md-6">
+                      <div class="card input-card" style="min-height:300px">
+                        <div class="card-body" style="min-height:300px">
+
+                          <ng-container>
+                            <mat-checkbox *ngFor="let topping of toppingsForOrder" 
+                            (change)="onChange($event)"
+                            [value]=topping
+                            >{{topping}}</mat-checkbox>
+                          </ng-container>
+
+                         
+                        </div>
+                      </div>
+                    </div>
+        
+        
+        
+                  </div>
+        
+                  <div class="row input-row">
+                      <button id="btn-add-card" mat-raised-button color="primary" type="submit">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+          </form>
+     
+    </div>
+  </div>
+</div>
