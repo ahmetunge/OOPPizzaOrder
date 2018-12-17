@@ -10,7 +10,7 @@ I tried to use OOP principle in the project
 
 Dummy Datas are given in repostories.
 
-<h5>Data To Use</h5>
+<h3>Data To Use</h3>
 
 let say pizza have price X
 
