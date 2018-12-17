@@ -2,7 +2,13 @@
 
 ## Overview
 
-This application use to add pizza to the cart
+This application use to add pizza to the cart.
+
+Asp.Net core Session is used to keep pizzas in cart
+
+I tried to use OOP principle in the project
+
+Dummy Datas are given in repostories.
 
 <h5>Data To Use</h5>
 
@@ -18,7 +24,8 @@ let say pizza have price X
            
  and each pizza type have a price
  
- After add pizaa to cart it will give total price of pizzas.
+ After add pizza to cart it will give total price of pizzas. 
+
 
 ## Features
 
