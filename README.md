@@ -24,7 +24,7 @@ let say pizza have price X
            
  and each pizza type have a price
  
- After add pizza to cart it will give total price of pizzas. 
+ After add pizza to cart it will give total price of pizzas and it will show your all pizzas in cart. 
 
 
 ## Features
